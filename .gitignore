@@ -1,1 +1,24 @@
+# ----------------------------------
+# Python (padrão ampliado)
+# ----------------------------------
 __pycache__/
+*.py[cod]
+*.so
+.python-version
+*.egg-info/
+*.egg
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# ----------------------------------
+# Ambientes Virtuais
+# ----------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json__pycache__/
