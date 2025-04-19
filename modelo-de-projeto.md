@@ -39,7 +39,3 @@ pip install -r requirements.txt
 
 # Rodar o script principal
 python main.py
-
-
-
-
