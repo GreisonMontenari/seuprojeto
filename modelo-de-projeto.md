@@ -1,3 +1,4 @@
 # Modelo de Projeto Open-Source
 ## Título do Projeto
-Descrição do projeto aqui.
+Repositório para armazenar e organizar projetos open-source na área de Ciência de Dados.
+
