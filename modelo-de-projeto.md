@@ -42,10 +42,4 @@ python main.py
 
 
 
-### O que mais pode ser feito:
-- **Simplificar as visualizações**: Evitar visualizações complexas, como gráficos interativos, e focar em gráficos mais simples que podem ser feitos com `Matplotlib` ou `Seaborn`.
-- **Código simples**: Usar bibliotecas como `pandas`, `numpy`, `scikit-learn`, `matplotlib`, e `seaborn`, que são comuns em projetos iniciais de Ciência de Dados.
 
-Esse modelo vai ajudar a guiar quem está começando a aprender Ciência de Dados, fornecendo uma estrutura clara para trabalhar com dados, criar modelos e avaliar os resultados, enquanto ainda mantém a possibilidade de expandir para projetos mais avançados.
-
-Se precisar de ajustes ou mais detalhes, é só avisar!
