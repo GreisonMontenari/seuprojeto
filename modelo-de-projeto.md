@@ -1,41 +1,40 @@
-# Modelo de Projeto: Ciência de Dados
+# Modelo de Projeto
 
-Este modelo de projeto é adequado para iniciantes que estão começando a aprender sobre Ciência de Dados, mas também é útil para quem quer reforçar conceitos e criar um fluxo básico para seus projetos.
+Este arquivo serve como um modelo para documentar um projeto no repositório. Cada novo projeto deve seguir este padrão de documentação.
 
-## 1. Descrição do Projeto
+## 📁 Nome do Projeto
 
-Objetivo: Prever o preço de casas com base em características como número de quartos, tamanho da casa, localização, etc.
+- **Descrição**: Descreva o que o projeto faz, qual é o seu objetivo e qual problema ele resolve.
+- **Tecnologias**: Liste as tecnologias, bibliotecas e ferramentas utilizadas no projeto.
+- **Objetivo**: O que o projeto busca alcançar e qual impacto ele terá para os usuários ou para a comunidade.
 
-## 2. Dados Utilizados
+## ⚙️ Como Usar
 
-- **Fonte**: [Kaggle - Preços de Casas](https://www.kaggle.com/)
-- **Formato**: CSV
-- **Descrição**: Dados sobre características de casas e seus preços de venda.
-- **Transformações**: Substituição de valores ausentes por média, conversão de variáveis categóricas para variáveis dummy.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/GreisonMontenari/seuprojeto.git
+    ```
 
-## 3. Metodologia
+2. Navegue até a pasta do projeto:
+    ```bash
+    cd seuprojeto
+    ```
 
-1. **Coleta de Dados**: Baixamos os dados do Kaggle.
-2. **Pré-processamento**: Limpeza dos dados (valores nulos e transformação de variáveis).
-3. **Análise Exploratória de Dados (EDA)**: Visualizações simples para entender as distribuições e correlações entre as variáveis.
-4. **Modelagem**: Aplicação de Regressão Linear e Árvore de Decisão para prever o preço das casas.
-5. **Avaliação**: Usamos a métrica RMSE (Root Mean Squared Error) para avaliar a precisão do modelo.
+3. Instale as dependências necessárias:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## 4. Resultados
+4. Execute os scripts conforme a descrição no arquivo README do projeto.
 
-- **Modelo de Regressão Linear**: RMSE = 25000
-- **Modelo de Árvore de Decisão**: RMSE = 20000
-- **Conclusão**: A Árvore de Decisão apresentou resultados melhores, com um erro médio menor.
+## 🔧 Dependências
 
-## 5. Conclusões
+Liste as bibliotecas e versões necessárias para rodar o projeto. Exemplo:
 
-O modelo de Árvore de Decisão foi eficiente para prever o preço das casas com dados simples. Há espaço para melhorias, como o uso de mais variáveis e ajustes no modelo.
+- Python 3.8
+- Pandas 1.2.0
+- Matplotlib 3.2.0
 
-## 6. Como Rodar o Projeto
+## 📝 Licença
 
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
-# Rodar o script principal
-python main.py
+Este projeto está licenciado sob a [MIT License](LICENSE).
